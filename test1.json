@@ -1,0 +1,2166 @@
+{
+  "id": "neet_ug_mock_test_001",
+  "title": "NTA NEET UG Full Mock Test",
+  "questions": [
+    {
+      "id": 1,
+      "text": "The chondrocytes of connective tissue are:",
+      "image": "",
+      "options": [
+        "Fibre secreting cells",
+        "Bone forming cells",
+        "Cartilage cells",
+        "Bone eating cells"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "text": "Longest unstriated muscles are present in:",
+      "image": "",
+      "options": [
+        "Wall of intestine",
+        "Wall of ovary",
+        "Wall of fallopian tube",
+        "Wall of uterus of pregnant female"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 3,
+      "text": "Which type of tissue correctly matches with its location?",
+      "image": "",
+      "options": [
+        "Cuboidal epithelium - Lining of stomach",
+        "Smooth muscle - Wall of intestine",
+        "Areolar tissue - Tendons",
+        "Transitional epithelium - Tip of nose"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "text": "Which of the following is characteristic of mammalian bone?",
+      "image": "",
+      "options": [
+        "Collagen",
+        "Blood vessels",
+        "Lymphatic vessels",
+        "Haversian canals"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 5,
+      "text": "Simple epithelium is divided further on the basis of:",
+      "image": "",
+      "options": [
+        "Structural modifications",
+        "Functional modifications",
+        "Both structural and functional modifications",
+        "Organs in which they are found"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 6,
+      "text": "Assertion (A): Blood is rich in calcium salts and collagen fibres. Reason(R): Blood is a connective tissue with fluid (plasma) matrix.",
+      "image": "",
+      "options": [
+        "Both A and R are true and R is correct explanation",
+        "Both A and R are true but R is not correct explanation",
+        "Assertion is true but Reason is false",
+        "Both Assertion and Reason are false"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 7,
+      "text": "Inner surface of bronchioles and fallopian tubes consists of:",
+      "image": "",
+      "options": [
+        "Ciliated epithelium",
+        "Squamous epithelium",
+        "Cuboidal epithelium",
+        "Columnar epithelium"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 8,
+      "text": "The cellular junctions meant for chemical exchange between adjacent cells are:",
+      "image": "",
+      "options": [
+        "Intercellular bridges",
+        "Gap junctions",
+        "Anchoring junctions",
+        "Tight junctions"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "text": "The epithelium present in the lining layer of stomach and intestine is:",
+      "image": "",
+      "options": [
+        "Columnar",
+        "Squamous",
+        "Cuboidal",
+        "Ciliated epithelium"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 10,
+      "text": "A student was given a sample of tissue. He observes a single layer of tall and slender cells with basal nuclei and microvilli. Identify the epithelium.",
+      "image": "",
+      "options": [
+        "Cuboidal epithelium",
+        "Columnar epithelium",
+        "Squamous epithelium",
+        "Glandular epithelium"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 11,
+      "text": "Which of the following junctions help to stop substances from leaking across a tissue?",
+      "image": "",
+      "options": [
+        "Adhering junctions",
+        "Gap junctions",
+        "Tight junctions",
+        "Synaptic junctions"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 12,
+      "text": "Which of the bone will be considered investing or dermal bone?",
+      "image": "",
+      "options": [
+        "Thoracic vertebrae",
+        "Femur",
+        "Frontal",
+        "Ribs"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 13,
+      "text": "Which cells secrete histamine, serotonin and heparin in areolar connective tissue?",
+      "image": "",
+      "options": [
+        "Macrophages",
+        "Fibroblasts",
+        "Plasma cells",
+        "Mast cells"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 14,
+      "text": "Which of the following tissues performs the function of linking and supporting other tissues of the body?",
+      "image": "",
+      "options": [
+        "Epithelial tissue",
+        "Muscular tissue",
+        "Connective tissue",
+        "Nervous tissue"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 15,
+      "text": "The most widely distributed connective tissue in the body of animals is:",
+      "image": "",
+      "options": [
+        "Areolar",
+        "Adipose",
+        "Cartilage",
+        "Dense irregular"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 16,
+      "text": "The cavities of the alveoli of the lungs are lined by:",
+      "image": "",
+      "options": [
+        "Cuboidal epithelium",
+        "Columnar epithelium",
+        "Stratified cuboidal epithelium",
+        "Squamous epithelium"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 17,
+      "text": "Match: A. Adipose tissue, B. Stratified epithelium, C. Hyaline cartilage, D. Fluid connective tissue WITH 1. Nose, 2. Blood, 3. Skin, 4. Fat storage.",
+      "image": "",
+      "options": [
+        "A-1 B-2 C-3 D-4",
+        "A-4 B-3 C-1 D-2",
+        "A-3 B-1 C-4 D-2",
+        "A-2 B-1 C-4 D-3"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 18,
+      "text": "Choose the correctly matched pair:",
+      "image": "",
+      "options": [
+        "Tendon - Specialized connective tissue",
+        "Adipose tissue - Dense connective tissue",
+        "Areolar tissue - Loose connective tissue",
+        "Cartilage - Loose connective tissue"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 19,
+      "text": "Which of the following muscle fibres do not show striations and taper at both ends?",
+      "image": "",
+      "options": [
+        "Skeletal muscle fibres",
+        "Smooth muscle fibres",
+        "Cardiac muscle fibres",
+        "Voluntary muscle fibres"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 20,
+      "text": "Intercalated discs are present in:",
+      "image": "",
+      "options": [
+        "Striated muscles",
+        "Unstriated muscles",
+        "Cardiac muscles",
+        "Neurons"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 21,
+      "text": "Cartilage has slightly pliable matrix due to:",
+      "image": "",
+      "options": [
+        "Chondroitin salts",
+        "Osteoblast",
+        "Chondroblast",
+        "Calcium phosphate"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 22,
+      "text": "Which of the following statement is not correct regarding connective tissue?",
+      "image": "",
+      "options": [
+        "They are the most abundant and widely distributed",
+        "They connect and support other tissues",
+        "They include bones, cartilage, tendons, and blood",
+        "They form the internal and external lining of many organs"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 23,
+      "text": "The cell junctions called tight, adhering and gap junctions are found in:",
+      "image": "",
+      "options": [
+        "Connective tissue",
+        "Epithelial tissue",
+        "Neural tissue",
+        "Muscular tissue"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 24,
+      "text": "Assertion: The cells that produce and secrete fibres are called fibroblasts. Reason: Fibroblasts are the characteristic cells of all types of connective tissue.",
+      "image": "",
+      "options": [
+        "Both are true and Reason is correct explanation",
+        "Both are true but Reason is not correct explanation",
+        "Assertion is true but Reason is false",
+        "Both are false"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 25,
+      "text": "Examples of specialised connective tissue include:",
+      "image": "",
+      "options": [
+        "Bone",
+        "Cartilage",
+        "Blood",
+        "All of these"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 26,
+      "text": "Which of the following tissue has basal nuclei?",
+      "image": "",
+      "options": [
+        "Cuboidal",
+        "Columnar",
+        "Squamous",
+        "Areolar"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 27,
+      "text": "Tendon is made up of:",
+      "image": "",
+      "options": [
+        "Yellow fibrous connective tissue",
+        "Modified white fibrous tissue",
+        "Areolar tissue",
+        "Adipose tissue"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 28,
+      "text": "Select the incorrect match:",
+      "image": "",
+      "options": [
+        "Skeletal muscle - Protects the heart",
+        "Compound epithelium - Protection against chemical stress",
+        "Bones - Protects soft tissues and organs",
+        "Neuroglia - Protects and support neurons"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 29,
+      "text": "Mast cells occur in:",
+      "image": "",
+      "options": [
+        "Connective tissue",
+        "Epithelial tissue",
+        "Skeletal tissue",
+        "Nervous tissue"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 30,
+      "text": "Which of the following is a compound alveolar gland?",
+      "image": "",
+      "options": [
+        "Gastric gland in stomach",
+        "Parotid salivary gland",
+        "Mammary gland of prototherians",
+        "Sebaceous glands"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 31,
+      "text": "Fibroblast, macrophages and mast cells are seen in:",
+      "image": "",
+      "options": [
+        "Epithelial cells",
+        "Loose connective tissue",
+        "Skeletal muscle tissue",
+        "Smooth muscle tissue"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 32,
+      "text": "Stratified squamous epithelium is found in:",
+      "image": "",
+      "options": [
+        "Pharynx",
+        "Trachea",
+        "Intestine",
+        "Stomach"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 33,
+      "text": "Ligament is a dense regular connective tissue that connects:",
+      "image": "",
+      "options": [
+        "Muscle to muscle",
+        "Bone to bone",
+        "Muscle to bone",
+        "Skin to muscle"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 34,
+      "text": "Nissl bodies are characteristic features of:",
+      "image": "",
+      "options": [
+        "Neurons",
+        "Chondrocytes",
+        "Osteocytes",
+        "Erythrocytes"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 35,
+      "text": "Bone forming cells are known as:",
+      "image": "",
+      "options": [
+        "Osteoblasts",
+        "Osteoclasts",
+        "Chondroblasts",
+        "Fibroblasts"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 36,
+      "text": "Macrophages of the nervous system are called:",
+      "image": "",
+      "options": [
+        "Astrocytes",
+        "Microglia",
+        "Oligodendrocytes",
+        "Schwann cells"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 37,
+      "text": "Ciliated epithelium is primarily found in the:",
+      "image": "",
+      "options": [
+        "Trachea",
+        "Alveoli",
+        "Skin",
+        "Blood vessels"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 38,
+      "text": "Haversian system is a characteristic feature of:",
+      "image": "",
+      "options": [
+        "Avian bone",
+        "Reptilian bone",
+        "Mammalian bone",
+        "Amphibian bone"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 39,
+      "text": "Mast cells secrete which of the following substances?",
+      "image": "",
+      "options": [
+        "Histamine",
+        "Serotonin",
+        "Heparin",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 40,
+      "text": "Smooth muscles can be best described as:",
+      "image": "",
+      "options": [
+        "Involuntary, fusiform, non-striated",
+        "Voluntary, multinucleate, striated",
+        "Involuntary, cylindrical, striated",
+        "Voluntary, branched, non-striated"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 41,
+      "text": "The fluid intercellular matrix of blood is called:",
+      "image": "",
+      "options": [
+        "Plasma",
+        "Lymph",
+        "Serum",
+        "Interstitial fluid"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 42,
+      "text": "Neuroglia make up what volume of neural tissue in our body?",
+      "image": "",
+      "options": [
+        "Less than 10%",
+        "About 25%",
+        "More than half",
+        "Exactly 100%"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 43,
+      "text": "Tendons, which attach skeletal muscles to bones, are examples of:",
+      "image": "",
+      "options": [
+        "Dense regular connective tissue",
+        "Dense irregular connective tissue",
+        "Loose connective tissue",
+        "Specialized connective tissue"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 44,
+      "text": "Transitional epithelium is characteristically found in the:",
+      "image": "",
+      "options": [
+        "Trachea",
+        "Urinary bladder",
+        "Stomach",
+        "Alveoli"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 45,
+      "text": "Adipose tissue is primarily specialized to store:",
+      "image": "",
+      "options": [
+        "Proteins",
+        "Carbohydrates",
+        "Fat",
+        "Minerals"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 46,
+      "text": "As the polar molecules cannot pass through the nonpolar lipid bilayer, they require a:",
+      "image": "",
+      "options": [
+        "Lipid carrier",
+        "Protein carrier",
+        "Non polar channel",
+        "Both A and C"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 47,
+      "text": "Which of the following statements is correct?",
+      "image": "",
+      "options": [
+        "The genetic material of prokaryotes is not enclosed in a cell nucleus",
+        "Ribosomes were discovered by Palade in plant cells",
+        "Ribosomes are DNA-protein complexes",
+        "Balbiani rings are found in polytene chromosomes"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 48,
+      "text": "Na+/K+ pump involves which type of transport?",
+      "image": "",
+      "options": [
+        "Downhill",
+        "Passive transport",
+        "Uphill",
+        "Along concentration gradient"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 49,
+      "text": "Statement P: cell wall gives shape to cell but it does not protect it from infection. Statement Q: cell wall helps in cell to cell interaction.",
+      "image": "",
+      "options": [
+        "Both statements are correct",
+        "Both statements are incorrect",
+        "Only statement Q is correct",
+        "Only statement P is correct"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 50,
+      "text": "Which of the following statements (events) is/are true for mitotic telophase?",
+      "image": "",
+      "options": [
+        "Nucleolus, GB and ER reform",
+        "Nuclear envelope develops around the chromosome clusters",
+        "Arrival of chromosomes cluster at opposite poles and loss of their identity",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 51,
+      "text": "Mineral involved in ribosome assembly is:",
+      "image": "",
+      "options": [
+        "Mg",
+        "K",
+        "Mn",
+        "Na"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 52,
+      "text": "Tubulin occurs in:",
+      "image": "",
+      "options": [
+        "Microtubules",
+        "Cilia and Flagella",
+        "Microvilli",
+        "Both A and B"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 53,
+      "text": "The Golgi complex participates in:",
+      "image": "",
+      "options": [
+        "Respiration in bacteria",
+        "Formation of secretory vesicles",
+        "Fatty acid breakdown",
+        "Activation of amino acid"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 54,
+      "text": "Protein crystallography using X-ray was discovered by:",
+      "image": "",
+      "options": [
+        "Max Perutz",
+        "Knoll and Ruska",
+        "John Kendrew",
+        "Both A and C"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 55,
+      "text": "A zoologist examined an intestine cell from a crayfish and counted 200 chromosomes, each consists of 2 chromatids, at prophase I. What would he see at telophase II?",
+      "image": "",
+      "options": [
+        "50 chromosomes, 2 chromatids",
+        "50 chromosomes, 1 chromatid",
+        "100 chromosomes, 2 chromatids",
+        "100 chromosomes, 1 chromatid"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 56,
+      "text": "Which of the events listed below is not observed during mitosis?",
+      "image": "",
+      "options": [
+        "Chromatin condensation",
+        "Movement of centrioles to opposite poles",
+        "Appearance of chromosomes with two chromatids",
+        "Crossing over"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 57,
+      "text": "Chloroplasts found in plant cells:",
+      "image": "",
+      "options": [
+        "Are single membranous structures",
+        "Contain ds circular DNA",
+        "Contain 80S ribosomes",
+        "Are colourless plastids"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 58,
+      "text": "Prophase I is relatively ______ as compared to prophase of mitosis.",
+      "image": "",
+      "options": [
+        "Simple",
+        "Shorter",
+        "Longer",
+        "Longer and complex"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 59,
+      "text": "Cells in the quiescent stage (G0):",
+      "image": "",
+      "options": [
+        "Never divide",
+        "Always divide",
+        "Divide when required",
+        "Are metabolically inactive"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 60,
+      "text": "In a diploid cell, 14 chromosomes and 2C DNA after M-phase. What are the chromosomes and DNA amount at G1, after S and G2 phase respectively?",
+      "image": "",
+      "options": [
+        "14, 2C; 14, 4C; 14, 4C",
+        "14, 2C; 28, 4C; 28, 4C",
+        "14, 4C; 14, 4C; 28, 4C",
+        "28, 4C; 14, 2C; 14, 2C"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 61,
+      "text": "A bivalent of meiosis I consists of:",
+      "image": "",
+      "options": [
+        "Four chromatids and two centromeres",
+        "Two chromatids and one centromere",
+        "Two chromatids and two centromeres",
+        "Four chromatids and four centromeres"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 62,
+      "text": "If A - Nucleus, B - Plastid, C - Mitochondria and D - Vacuole, then arrange them on the basis of their size:",
+      "image": "",
+      "options": [
+        "A > B > C > D",
+        "D > B > A > C",
+        "D > A > B > C",
+        "D > A > C > B"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 63,
+      "text": "The phase characterised by the alignment of chromosomes at the equator is:",
+      "image": "",
+      "options": [
+        "Prophase",
+        "Anaphase",
+        "Metaphase",
+        "Telophase"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 64,
+      "text": "Statement-I: Nuclear pores are bidirectional passages. Statement-II: Cell theory explains how new cells form from pre-existing cells.",
+      "image": "",
+      "options": [
+        "Both Statement-I and II are correct",
+        "Both Statement-I and II are incorrect",
+        "Statement-I is correct, II is incorrect",
+        "Statement-I is incorrect, II is correct"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 65,
+      "text": "Diakinesis is marked by:",
+      "image": "",
+      "options": [
+        "Terminalisation of chiasmata",
+        "Degeneration of nucleolus",
+        "Fully condensed chromosomes",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 66,
+      "text": "Statement-I: Cell-plate is characteristic of animal cells. Statement-II: Meiosis recombination is between sister chromatids of homologous chromosomes.",
+      "image": "",
+      "options": [
+        "Both are correct",
+        "Both are incorrect",
+        "Statement-I is correct, II is incorrect",
+        "Statement-I is incorrect, II is correct"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 67,
+      "text": "During which stages of meiosis do you expect to find bivalents and DNA replication respectively?",
+      "image": "",
+      "options": [
+        "Pachytene and interphase between two meiotic divisions",
+        "Pachytene and interphase just prior to prophase I",
+        "Pachytene and S phase of interphase just prior to prophase I",
+        "Zygotene and S phase prior to prophase I"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 68,
+      "text": "Organelle which is in continuation with nuclear membrane:",
+      "image": "",
+      "options": [
+        "Mitochondria",
+        "Endoplasmic reticulum",
+        "Lysosome",
+        "Chloroplast"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 69,
+      "text": "Which of the following is the correct route of a secretory product?",
+      "image": "",
+      "options": [
+        "ER -> Vesicles -> Cis region of GB -> Trans region of GB -> Vesicles -> Plasma membrane",
+        "ER -> GB -> Lysosome -> Nuclear membrane -> Plasma membrane",
+        "ER -> Vesicles -> Trans GB -> Cis GB -> Vesicles -> Plasma membrane",
+        "Lysosome -> ER -> GB -> Vesicles -> Cell membrane"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 70,
+      "text": "Mitotic spindle is mainly composed of which proteins?",
+      "image": "",
+      "options": [
+        "Actin",
+        "Myosin",
+        "Tubulin",
+        "Myoglobin"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 71,
+      "text": "Cilium and flagellum emerge from a centriole-like structure called:",
+      "image": "",
+      "options": [
+        "Centrosome",
+        "Kinetochore",
+        "Basal body",
+        "Centromere"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 72,
+      "text": "Chromatid formation takes place in:",
+      "image": "",
+      "options": [
+        "S-phase",
+        "G1-phase",
+        "Metaphase",
+        "G2-phase"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 73,
+      "text": "Identify A, B and C in chloroplast: A points to lamella connecting grana, B points to stack, C points to fluid.",
+      "image": "",
+      "options": [
+        "A-Stroma wall, B-Granum, C-Stroma",
+        "A-Stroma lamella, B-Granum, C-Stroma",
+        "A-Stroma lamella, B-Stroma, C-Granum",
+        "A-Stroma wall, B-Stroma, C-Granum"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 74,
+      "text": "How much time does the cell cycle of yeast take?",
+      "image": "",
+      "options": [
+        "2 hrs",
+        "60 min",
+        "30 min",
+        "90 min"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 75,
+      "text": "Which parts of plant flowers are the best material to study meiosis?",
+      "image": "",
+      "options": [
+        "Anther",
+        "Ovule",
+        "Both of these",
+        "None of the above"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 76,
+      "text": "Which of the following statements regarding cilia is not correct?",
+      "image": "",
+      "options": [
+        "Cilia contain an outer of nine doublet microtubules surrounding two single microtubules",
+        "The organized beating of cilia is controlled by fluxes of Ca2+",
+        "Cilia are hair-like cellular appendages",
+        "Microtubules of cilia are composed of actin"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 77,
+      "text": "In which phase of the cell cycle in Eukaryotes is DNA most condensed?",
+      "image": "",
+      "options": [
+        "M-phase",
+        "Metaphase",
+        "S-phase",
+        "G1 phase"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 78,
+      "text": "In which phase do two sister chromatids separate?",
+      "image": "",
+      "options": [
+        "Anaphase",
+        "Metaphase",
+        "Prophase",
+        "Telophase"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 79,
+      "text": "Select the option which correctly identifies the similarity between mitosis and meiosis cell division.",
+      "image": "",
+      "options": [
+        "Pairing of homologous chromosomes",
+        "Required in all types of cells",
+        "S-phase occurs before initiation",
+        "Separation of paired chromosomes"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 80,
+      "text": "During the cell cycle, DNA synthesis occurs how many times?",
+      "image": "",
+      "options": [
+        "All the time",
+        "Once",
+        "Twice",
+        "Many times"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 81,
+      "text": "The leucoplasts that store oils and fats are:",
+      "image": "",
+      "options": [
+        "Amyloplasts",
+        "Elaioplasts",
+        "Aleuroplasts",
+        "Glyceroplasts"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 82,
+      "text": "In which stage of mitosis are the number of chromosomes best counted?",
+      "image": "",
+      "options": [
+        "Prophase",
+        "Metaphase",
+        "Telophase",
+        "Anaphase"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 83,
+      "text": "Which of the following is not true for a eukaryotic cell?",
+      "image": "",
+      "options": [
+        "It has 80S type of ribosome present in the mitochondria",
+        "It has 80S type of ribosome present in the cytoplasm",
+        "Mitochondria contain circular DNA",
+        "Membrane bound organelles are present"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 84,
+      "text": "Which of the following phases of the cell cycle is also known as the resting phase?",
+      "image": "",
+      "options": [
+        "G1-phase",
+        "M-phase",
+        "S-Phase",
+        "Interphase"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 85,
+      "text": "The nucleolus is the site of formation of:",
+      "image": "",
+      "options": [
+        "Spindle fibers",
+        "Ribosomes",
+        "Peroxisomes",
+        "Lysosomes"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 86,
+      "text": "The fluid mosaic model of plasma membrane was proposed by:",
+      "image": "",
+      "options": [
+        "Camillo Golgi",
+        "Schleiden and Schwann",
+        "Singer and Nicolson",
+        "Robert Brown"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 87,
+      "text": "Which of the following structures is absent in a typical plant cell?",
+      "image": "",
+      "options": [
+        "Centrioles",
+        "Vacuole",
+        "Cell wall",
+        "Plastids"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 88,
+      "text": "Crossing over occurs during which substage of Prophase I?",
+      "image": "",
+      "options": [
+        "Leptotene",
+        "Zygotene",
+        "Pachytene",
+        "Diplotene"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 89,
+      "text": "The main arena of cellular activities in both plant and animal cells is:",
+      "image": "",
+      "options": [
+        "Nucleus",
+        "Cytoplasm",
+        "Endoplasmic reticulum",
+        "Mitochondria"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 90,
+      "text": "Plasmodesmata are primarily involved in:",
+      "image": "",
+      "options": [
+        "Locomotion",
+        "Connecting cytoplasm of adjoining cells",
+        "Cell division",
+        "Photosynthesis"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 91,
+      "text": "In the electronic configuration 1s2 2s2 2p4, if electrons pair up before half-filling, it violates:",
+      "image": "",
+      "options": [
+        "Aufbau principle",
+        "Pauli's exclusion principle",
+        "Hund's rule of maximum multiplicity",
+        "Both 2 and 3"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 92,
+      "text": "The uncertainty in position of an electron and helium atom are same. If uncertainty in momentum for electron is 32 x 10^5, uncertainty in momentum of helium is:",
+      "image": "",
+      "options": [
+        "32 x 10^5",
+        "16 x 10^5",
+        "8 x 10^5",
+        "None of these"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 93,
+      "text": "The energy of an electron present in Bohr's second orbit of hydrogen atom is:",
+      "image": "",
+      "options": [
+        "-1312 J/atom",
+        "-328 kJ/mol",
+        "-328 J/mol",
+        "-164 J/mol"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 94,
+      "text": "Uncertainty in position of an electron (m = 9.1x10^-28 g) moving with velocity 3x10^4 cm/s accurate to 0.001% is:",
+      "image": "",
+      "options": [
+        "5.76 cm",
+        "7.68 cm",
+        "1.93 cm",
+        "3.84 cm"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 95,
+      "text": "A metal irradiated with light of 3.2 x 10^16 Hz emits photoelectrons with twice KE as 2.0 x 10^16 Hz. Threshold frequency is:",
+      "image": "",
+      "options": [
+        "1.2 x 10^14 Hz",
+        "8 x 10^15 Hz",
+        "1.2 x 10^16 Hz",
+        "4 x 10^12 Hz"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 96,
+      "text": "If En = -313.6 / n^2, then En = -34.84 corresponds to n =",
+      "image": "",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 97,
+      "text": "Which of the following orbitals will have the same energy in the absence of magnetic and electric fields? D: 3, 1, 2, 1 and E: 3, 1, 2, 0",
+      "image": "",
+      "options": [
+        "A and B",
+        "B and C",
+        "C and D",
+        "D and E"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 98,
+      "text": "The line spectrum of two elements is not identical because:",
+      "image": "",
+      "options": [
+        "They do not have same number of neutrons",
+        "They have dissimilar mass number",
+        "They have different energy level schemes",
+        "They have different number of valence electrons"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 99,
+      "text": "Identify the pairs of electrons present in degenerate orbitals for a multielectron species:",
+      "image": "",
+      "options": [
+        "n=3, l=1, ml=-1 and n=3, l=2, ml=-1",
+        "n=3, l=1, ml=1 and n=3, l=2, ml=1",
+        "n=4, l=1, ml=1 and n=3, l=2, ml=1",
+        "n=3, l=2, ml=+2, ms=-1/2 and n=3, l=2, ml=+2, ms=+1/2"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 100,
+      "text": "Uncertainties in velocities of A and B are 0.05 and 0.02. Mass of B is five times mass A. Ratio of uncertainties in positions (A/B) is:",
+      "image": "",
+      "options": [
+        "2",
+        "0.25",
+        "4",
+        "1"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 101,
+      "text": "Which among the following is an isoelectronic pair?",
+      "image": "",
+      "options": [
+        "NO2",
+        "CO2",
+        "N2O and CO2",
+        "NO2 2-"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 102,
+      "text": "In an atom with 2 K, 8 L, 18 M and 2 N electrons, the total number of electrons having magnetic quantum number m=0 is:",
+      "image": "",
+      "options": [
+        "6",
+        "10",
+        "7",
+        "14"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 103,
+      "text": "Nucleons are:",
+      "image": "",
+      "options": [
+        "Only neutrons",
+        "Neutrons + protons",
+        "Neutrons + protons + electrons",
+        "Neutrons + electrons"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 104,
+      "text": "Select the correct statements: A) All EM radiation travel with c in vacuum. C) He and H have similar spectrum.",
+      "image": "",
+      "options": [
+        "A, B, C, D",
+        "B, C, D",
+        "A, C",
+        "C only"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 105,
+      "text": "Energy absorbed is 4.4 x 10^-19 J, bond energy is 4.0 x 10^-19 J. The kinetic energy per atom is:",
+      "image": "",
+      "options": [
+        "2.2 x 10^-19 J",
+        "2.0 x 10^-19 J",
+        "4.0 x 10^-20 J",
+        "2.0 x 10^-20 J"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 106,
+      "text": "Wavelength (in nm) of a quantum of light with frequency of 6 x 10^15 Hz is:",
+      "image": "",
+      "options": [
+        "10",
+        "25",
+        "50",
+        "75"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 107,
+      "text": "The potential energy of the electron present in the ground state of Be3+ ion is:",
+      "image": "",
+      "options": [
+        "+ e^2 / (pi e0 r)",
+        "- e / (pi e0 r)",
+        "- e^2 / (pi e0 r^2)",
+        "- e^2 / (pi e0 r)"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 108,
+      "text": "The ratio of mass of an electron to that of the hydrogen atom is:",
+      "image": "",
+      "options": [
+        "1:3871",
+        "1:1837",
+        "1:1296",
+        "1:3781"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 109,
+      "text": "Which is correct for any H like species?",
+      "image": "",
+      "options": [
+        "(E2-E1) > (E3-E2) > (E4-E3)",
+        "(E2-E1) < (E3-E2) < (E4-E3)",
+        "(E2-E1) = (E3-E2) = (E4-E3)",
+        "(E2-E1) = 1/4(E3-E2) = 1/9(E4-E3)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 110,
+      "text": "1 mol of He+ is excited. 50% in 3rd level, 25% in 2nd, 25% ground. IE is 54.4 eV. Total energy evolved returning to ground is:",
+      "image": "",
+      "options": [
+        "331.13 x 10^4 J",
+        "400.14 x 10^4 J",
+        "10^4 J",
+        "6.66 x 10^4 J"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 111,
+      "text": "Let v1 be frequency of series limit of Lyman, v2 be first line of Lyman, and v3 be limit of Balmer. Relation is:",
+      "image": "",
+      "options": [
+        "v1 - v2 = v3",
+        "v2 - v1 = v3",
+        "v3 = 1/2(v1 - v3)",
+        "v1 + v2 = v3"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 112,
+      "text": "Minimum uncertainty in de-Broglie wavelength of electron accelerated by 6V and uncertainty in position 7/22 nm is:",
+      "image": "",
+      "options": [
+        "6.25 A",
+        "6 A",
+        "0.625 A",
+        "0.1325 A"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 113,
+      "text": "The correct set of quantum numbers for the unpaired electron of Xenon (single positive) ion is:",
+      "image": "",
+      "options": [
+        "n=6, l=1, m=0",
+        "n=4, l=1, m=1",
+        "n=5, l=1, m=1",
+        "n=3, l=0, m=0"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 114,
+      "text": "Two electrons occupying the same orbital are distinguished by:",
+      "image": "",
+      "options": [
+        "Spin quantum number",
+        "Principal quantum number",
+        "Magnetic quantum number",
+        "Azimuthal quantum number"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 115,
+      "text": "Principal quantum number matches with:",
+      "image": "",
+      "options": [
+        "Energy and size of orbital",
+        "Orientation of the orbital",
+        "Shape of the orbital",
+        "Spin of electron"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 116,
+      "text": "The Bohr orbit radius for hydrogen atom (n=1) is 0.53 A. The radius of the first excited state (n=2) is:",
+      "image": "",
+      "options": [
+        "0.13 A",
+        "1.06 A",
+        "4.77 A",
+        "2.12 A"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 117,
+      "text": "Nitrogen laser produces radiation at 337.1 nm. If 5.6 x 10^24 photons are emitted, the power is:",
+      "image": "",
+      "options": [
+        "3.33 x 10^6 J",
+        "3.33 x 10^5 J",
+        "1.56 x 10^6 J",
+        "15.6 x 10^8 J"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 118,
+      "text": "Which electronic configuration of d-orbital has the highest affinity for gaining an electron?",
+      "image": "",
+      "options": [
+        "d3",
+        "d5",
+        "d4",
+        "d8"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 119,
+      "text": "The ratio of the difference in energy of hydrogen between first and second orbit to second and third orbit is:",
+      "image": "",
+      "options": [
+        "1/2",
+        "1/3",
+        "27/5",
+        "4/9"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 120,
+      "text": "Which statements are correct? I. Angular quantum number determines shape. IV. Spin determines orientation of spin.",
+      "image": "",
+      "options": [
+        "I and II",
+        "I and IV",
+        "III and IV",
+        "II, III and IV"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 121,
+      "text": "Radiation of 155 nm irradiated on Li (work function 5eV). The stopping potential is:",
+      "image": "",
+      "options": [
+        "3 eV",
+        "4 eV",
+        "2.5 eV",
+        "5.5 eV"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 122,
+      "text": "The spectrum of He is expected to be similar to that of:",
+      "image": "",
+      "options": [
+        "H",
+        "Na",
+        "He+",
+        "Li+"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 123,
+      "text": "The total spin resulting from a d9 configuration is:",
+      "image": "",
+      "options": [
+        "1/2",
+        "2",
+        "1",
+        "3/2"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 124,
+      "text": "Which of the following pair of orbitals possess two nodal planes each?",
+      "image": "",
+      "options": [
+        "px, dx2-y2",
+        "dx2-y2, dz2",
+        "dxz, dx2-y2",
+        "py, dxy"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 125,
+      "text": "To have the same wavelength for electron and neutron, their velocities should be in the ratio (ve/vn):",
+      "image": "",
+      "options": [
+        "mn/me",
+        "mnme",
+        "me/mn",
+        "One"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 126,
+      "text": "Max wavelength effective for photochemical dissociation of O2 requiring 498 kJ/mol and excited atom 1.967eV more energetic is:",
+      "image": "",
+      "options": [
+        "1645.3 A",
+        "1741.5 A",
+        "1545.2 A",
+        "1942.3 A"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 127,
+      "text": "Calculate the energy in joule corresponding to light of wavelength 45 nm:",
+      "image": "",
+      "options": [
+        "6.67 x 10^15",
+        "6.67 x 10^11",
+        "4.42 x 10^15",
+        "4.42 x 10^-18"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 128,
+      "text": "An atom with atomic number 20 is most likely to combine chemically with the atom whose atomic number is:",
+      "image": "",
+      "options": [
+        "11",
+        "16",
+        "18",
+        "10"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 129,
+      "text": "Based on E = -2.178x10^-18 J (Z^2/n^2), which conclusion is incorrect?",
+      "image": "",
+      "options": [
+        "Negative sign means bound electron has lower energy",
+        "Larger n means larger orbit radius",
+        "Can calculate change in energy",
+        "For n=1, electron is more loosely bound"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 130,
+      "text": "h/pi is the angular momentum of the electron in the orbit of He+ for n =",
+      "image": "",
+      "options": [
+        "n=2",
+        "n=4",
+        "n=1",
+        "n=5"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 131,
+      "text": "Each hydrogen atom is excited by giving 10.2 eV. The maximum number of spectral lines is:",
+      "image": "",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 132,
+      "text": "Which of the following configuration follows Hund's rule?",
+      "image": "",
+      "options": [
+        "2s2 2p3 (all unpaired parallel spin)",
+        "2s2 2p3 (one paired)",
+        "2s2 2p3 (opposite spins)",
+        "2s2 2p3 (empty orbital)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 133,
+      "text": "Which statement does not form a part of Bohr's model of hydrogen atom?",
+      "image": "",
+      "options": [
+        "Energy of orbits are quantized",
+        "Electron nearest to nucleus has lowest energy",
+        "Electrons revolve in different orbits",
+        "Position and velocity cannot be determined simultaneously"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 134,
+      "text": "Correct order of the radius of the 1st orbit of H, He+, Li2+, Be3+ is:",
+      "image": "",
+      "options": [
+        "H > He+ > Li2+ > Be3+",
+        "Be3+ > Li2+ > He+ > H",
+        "He+ > Be3+ > Li2+ > H",
+        "He+ > H > Li2+ > Be3+"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 135,
+      "text": "According to Heisenberg's uncertainty principle:",
+      "image": "",
+      "options": [
+        "Position and momentum can be measured perfectly",
+        "Uncertainty in position and momentum cannot be zero",
+        "Energy and time are completely independent",
+        "Electrons orbit in fixed distinct paths"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 136,
+      "text": "The velocity of water waves depends on wavelength, density and g. Relation is:",
+      "image": "",
+      "options": [
+        "v^2 = K lambda^-1 g^-1 rho^-1",
+        "v^2 = K lambda g",
+        "v^2 = K lambda g rho",
+        "v^2 = K lambda^3 g^-1 rho^-1"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 137,
+      "text": "The angle of projection of a body is 15 degrees. The other angle for the same range is:",
+      "image": "",
+      "options": [
+        "30 degrees",
+        "45 degrees",
+        "60 degrees",
+        "75 degrees"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 138,
+      "text": "A large number of bullets are fired in all directions with same speed v. Max area on the ground is:",
+      "image": "",
+      "options": [
+        "pi v^2 / g",
+        "pi v^4 / g^2",
+        "pi^2 v^4 / g^2",
+        "pi^2 v^2 / g^2"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 139,
+      "text": "A quantity alpha = e^2 / (4 pi e0 c h_bar). The dimensions of alpha are:",
+      "image": "",
+      "options": [
+        "[M0 L0 T0 I0]",
+        "[M1 L-1 T2 I-2]",
+        "[M2 L1 T-1 I0]",
+        "[M0 L3 T-1 I-2]"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 140,
+      "text": "A projectile has range R on earth. For same v and angle, range on moon will be:",
+      "image": "",
+      "options": [
+        "36 R",
+        "60 degrees",
+        "R / 6",
+        "6 R"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 141,
+      "text": "A 0.2 kg object at rest is subjected to force (0.3i - 0.4j) N. Velocity after 6 sec is:",
+      "image": "",
+      "options": [
+        "(9i - 12j)",
+        "(8i - 16j)",
+        "(12i - 9j)",
+        "(16i - 8j)"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 142,
+      "text": "A projectile thrown at 50 m/s at 53 degrees. Instants at which it is at the same height are:",
+      "image": "",
+      "options": [
+        "t=1s and t=7s",
+        "t=3s and t=5s",
+        "t=2s and t=6s",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 143,
+      "text": "Assertion: A.U. is much bigger than Angstrom. Reason: A.U. stands for astronomical unit.",
+      "image": "",
+      "options": [
+        "Both correct, reason is correct explanation",
+        "Both correct, reason is not correct explanation",
+        "Assertion correct, reason incorrect",
+        "Assertion incorrect, reason correct"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 144,
+      "text": "If unit of length is micrometer and time is microsecond, unit of velocity will be:",
+      "image": "",
+      "options": [
+        "100 m/s",
+        "10 m/s",
+        "Micrometer",
+        "m/s"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 145,
+      "text": "Boatman rows at 10 m/s to reach exactly opposite point across river flowing at 4 m/s. He should row:",
+      "image": "",
+      "options": [
+        "At right angle to stream",
+        "At sin^-1(2/5) with PQ up the stream",
+        "At sin^-1(2/5) with PQ down the stream",
+        "At cos^-1(2/5) with PQ down the stream"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 146,
+      "text": "You measure A = 1.0 +/- 0.2 m, B = 2.0 +/- 0.2 m. Correct value for sqrt(AB) is:",
+      "image": "",
+      "options": [
+        "1.4 +/- 0.4 m",
+        "1.41 +/- 0.15 m",
+        "1.4 +/- 0.3 m",
+        "1.4 +/- 0.2 m"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 147,
+      "text": "If time taken by projectile to reach Q is T, then PQ =",
+      "image": "",
+      "options": [
+        "Tv sin(theta)",
+        "Tv cos(theta)",
+        "Tv sec(theta)",
+        "Tv tan(theta)"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 148,
+      "text": "Which statements are correct? I. Change of units does not change sig digits. II. Non-zero digits are sig. III. Zeros between non-zeros are sig.",
+      "image": "",
+      "options": [
+        "I only",
+        "II only",
+        "II and III",
+        "I, II and III"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 149,
+      "text": "If h and c are fundamental, which should not be taken to express length, mass, and time?",
+      "image": "",
+      "options": [
+        "Mass of electron",
+        "Universal gravitational constant (G)",
+        "Charge of electron (e)",
+        "Mass of proton"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 150,
+      "text": "Particle fired with velocity u at angle theta. Magnitude of change in velocity at highest point is:",
+      "image": "",
+      "options": [
+        "u cos(theta)",
+        "u",
+        "u sin(theta)",
+        "u cos(theta) - u"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 151,
+      "text": "Girl at 5 m/s sees rain vertical. At 15 m/s, rain is 45 degrees. Magnitude of rain velocity is:",
+      "image": "",
+      "options": [
+        "5 m/s",
+        "5 sqrt(5) m/s",
+        "25 m/s",
+        "10 m/s"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 152,
+      "text": "Total change of momentum by the instant projectile returns to ground is:",
+      "image": "",
+      "options": [
+        "acceleration * time",
+        "weight * half time",
+        "weight * total time of flight",
+        "weight * horizontal range"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 153,
+      "text": "The unit of permittivity of free space is:",
+      "image": "",
+      "options": [
+        "C / N m",
+        "C^2 / N m^2",
+        "N m^2 / C^2",
+        "C^2 / (N m)^2"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 154,
+      "text": "Vernier calipers 0.1 cm MS, 10 VS match 9 MS. Measurements 0.5 MS, 8 VS. Zero error -0.03 cm. Corrected diameter:",
+      "image": "",
+      "options": [
+        "0.52 cm",
+        "0.59 cm",
+        "0.56 cm",
+        "0.53 cm"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 155,
+      "text": "Screw gauge least count 0.001 cm. Correct measurement is:",
+      "image": "",
+      "options": [
+        "5.3 cm",
+        "5.32 cm",
+        "5.320 cm",
+        "5.3200 cm"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 156,
+      "text": "Position vector r = (t^2 - 8t + 12)i + t^2 j. Time when velocity and acceleration are perpendicular is:",
+      "image": "",
+      "options": [
+        "1 s",
+        "2 s",
+        "3 s",
+        "4 s"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 157,
+      "text": "Cricketer throws ball to max distance 180m. Speed is:",
+      "image": "",
+      "options": [
+        "35 m/s",
+        "30 m/s",
+        "40 m/s",
+        "42 m/s"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 158,
+      "text": "Body thrown horizontally from 5m tower hits 10m away. Initial velocity is (g=10):",
+      "image": "",
+      "options": [
+        "2.5 m/s",
+        "5 m/s",
+        "10 m/s",
+        "20 m/s"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 159,
+      "text": "Percentage errors in distance and time are e1 and e2. Percentage error in g is:",
+      "image": "",
+      "options": [
+        "e1 + 2e2",
+        "e1 + e2",
+        "e1 - 2e2",
+        "e2 - e1"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 160,
+      "text": "Cube side 7.203 m. Total surface area and volume to appropriate significant figures are:",
+      "image": "",
+      "options": [
+        "373.7 m2, 311.3 m3",
+        "311.3 m2, 373.7 m3",
+        "273.4 m2, 342.4 m3",
+        "423.4 m2, 437.4 m3"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 161,
+      "text": "The dimensions of time in energy are:",
+      "image": "",
+      "options": [
+        "0",
+        "-2",
+        "2",
+        "1"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 162,
+      "text": "Train 150m going north 10 m/s. Parrot flies south 5 m/s. Time to cross is:",
+      "image": "",
+      "options": [
+        "12 s",
+        "8 s",
+        "15 s",
+        "10 s"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 163,
+      "text": "Assertion: Angle and strain are dimensionless. Reason: Angle and strain have no unit.",
+      "image": "",
+      "options": [
+        "Both correct, reason is correct explanation",
+        "Both correct, reason is not correct explanation",
+        "Assertion correct, reason incorrect",
+        "Assertion incorrect, reason correct"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 164,
+      "text": "U = Asqrt(x) / (x+B). Dimensions of AB are:",
+      "image": "",
+      "options": [
+        "ML^(5/2) T^-2",
+        "ML^2 T^-2",
+        "M^(3/2) L^3 T^-2",
+        "ML^(7/2) T^-2"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 165,
+      "text": "Length 100.0 cm (LC 1mm), radius 1.00 cm (LC 0.1mm). % error in volume of cylinder is:",
+      "image": "",
+      "options": [
+        "2.1%",
+        "3%",
+        "2.01%",
+        "3.2%"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 166,
+      "text": "Ground projectile y = 16x - x^2 / 4. Horizontal range is:",
+      "image": "",
+      "options": [
+        "16 m",
+        "8 m",
+        "64 m",
+        "12.8 m"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 167,
+      "text": "Radius of ball is 5.4 +/- 0.2 cm. Percentage error in volume is:",
+      "image": "",
+      "options": [
+        "11%",
+        "4%",
+        "7%",
+        "9%"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 168,
+      "text": "In P = P0 * e^(-at^2), dimension of a is:",
+      "image": "",
+      "options": [
+        "Dimensionless",
+        "T^-2",
+        "Same as P",
+        "Same as P * T^-2"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 169,
+      "text": "Particles A and B projected towards each other from (0,0) and (l, -h). Minimum distance is:",
+      "image": "",
+      "options": [
+        "0",
+        "h",
+        "sqrt(l^2+h^2)",
+        "l"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 170,
+      "text": "During projectile motion, acceleration at the highest point is:",
+      "image": "",
+      "options": [
+        "g",
+        "zero",
+        "less than g",
+        "dependent on velocity"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 171,
+      "text": "Density of wood 0.5 gm/cc. MKS unit value is:",
+      "image": "",
+      "options": [
+        "500",
+        "5",
+        "0.5",
+        "5000"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 172,
+      "text": "d/dt(integral F.dS) = A (F.p). Dimensional formula of A is:",
+      "image": "",
+      "options": [
+        "[M0 L0 T0]",
+        "[M L0 T0]",
+        "[M-1 L0 T0]",
+        "[M0 L0 T-1]"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 173,
+      "text": "River 1 m/s, swimmer 5 m/s at angle theta. AB=BC=1000m. Theta is:",
+      "image": "",
+      "options": [
+        "30 degrees",
+        "37 degrees",
+        "45 degrees",
+        "60 degrees"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 174,
+      "text": "Trajectories of two particles with angles theta1, theta2. Graph shows relation:",
+      "image": "",
+      "options": [
+        "theta1 = 2 theta2",
+        "theta1 = 1/2 theta2",
+        "theta1 = theta2",
+        "theta1 = 3 theta2"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 175,
+      "text": "Velocity at max height is sqrt(3)/2 u. Range is:",
+      "image": "",
+      "options": [
+        "sqrt(3) u^2 / 2g",
+        "3 u^2 / 2g",
+        "3 u^2 / g",
+        "u^2 / 2g"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 176,
+      "text": "If unit of length and force are increased 4 times, unit of energy is:",
+      "image": "",
+      "options": [
+        "increased 4 times",
+        "increased 16 times",
+        "increased 8 times",
+        "remains unchanged"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 177,
+      "text": "Which of the following has the highest number of significant figures?",
+      "image": "",
+      "options": [
+        "0.007",
+        "64 x 10^24",
+        "0.0006032",
+        "6.3200"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 178,
+      "text": "Body thrown 9.8 m/s at 30 degrees. Time to hit ground is:",
+      "image": "",
+      "options": [
+        "3 s",
+        "2 s",
+        "1.5 s",
+        "1 s"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 179,
+      "text": "Path of one projectile as seen from another moving projectile is:",
+      "image": "",
+      "options": [
+        "A straight line",
+        "A circle",
+        "An ellipse",
+        "A parabola"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 180,
+      "text": "Assertion: Sig figs in 0.005 is one, in 0.500 is three. Reason: Zeros are not significant.",
+      "image": "",
+      "options": [
+        "Both correct, reason explains",
+        "Both correct, reason does not explain",
+        "Assertion correct, reason incorrect",
+        "Assertion incorrect, reason correct"
+      ],
+      "correct": 0
+    }
+  ]
+}
