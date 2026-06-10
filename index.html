@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEET 2028 Prep - NTA CBT Interface</title>
+    <title>NEET 2028 Prep Portal - NTA CBT Mode</title>
     <style>
         /* Base Styles */
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; font-size: 14px; }
@@ -31,7 +31,7 @@
         .left-panel { flex: 3; display: flex; flex-direction: column; border-right: 1px solid #ccc; }
         .question-header { background: #e8f0fe; padding: 10px; border-bottom: 1px solid #ccc; font-weight: bold; font-size: 16px; color: #1a5276; }
         .question-content { flex: 1; padding: 25px; overflow-y: auto; font-size: 16px; }
-        .question-image { max-width: 100%; margin: 15px 0; border: 1px solid #ddd; border-radius: 4px; }
+        .question-image { max-width: 100%; max-height: 350px; margin: 15px 0; border: 1px solid #ddd; border-radius: 4px; display: block; }
         .options-list { list-style-type: none; padding: 0; }
         .options-list li { margin-bottom: 15px; display: flex; align-items: center; padding: 10px; border: 1px solid #eee; border-radius: 4px; cursor: pointer; transition: background 0.2s; }
         .options-list li:hover { background: #f9f9f9; }
@@ -84,7 +84,7 @@
 <div class="container" id="auth-section">
     <div style="text-align: center; margin-bottom: 20px;">
         <h2 style="color: #1a5276;">NTA NEET UG CBT Portal</h2>
-        <p>Mock Test Platform - 2028 Preparation</p>
+        <p>Independent HTML Test Framework - 2028 Prep</p>
     </div>
     <div id="login-form">
         <h3>Candidate Login</h3>
@@ -94,8 +94,8 @@
     </div>
     <div id="signup-form" class="hidden">
         <h3>Candidate Registration</h3>
-        <input type="text" id="signup-name" placeholder="Enter Full Name (e.g., Ramesh Kumar)">
-        <input type="text" id="signup-roll" placeholder="Create Roll Number (e.g., NEET202801)">
+        <input type="text" id="signup-name" placeholder="Enter Full Name">
+        <input type="text" id="signup-roll" placeholder="Create Roll Number">
         <button class="btn-primary" onclick="signup()" style="width: 100%;">Sign Up & Login</button>
         <p style="text-align: center; margin-top: 15px;">Already registered? <a href="#" onclick="toggleAuth()">Login</a></p>
     </div>
@@ -124,7 +124,7 @@
 <div id="cbt-section" class="hidden">
     <div id="nta-cbt-container">
         <div class="cbt-header">
-            <h2 id="cbt-test-title">NEET UG 2028 Mock Test</h2>
+            <h2 id="cbt-test-title">Loading...</h2>
             <div class="timer-box">Time Left: <span id="timer">03:00:00</span></div>
         </div>
 
@@ -133,8 +133,7 @@
                 <div class="question-header">
                     Question No. <span id="q-no-display" style="font-size: 18px; color: #d35400;">1</span>
                 </div>
-                <div class="question-content" id="question-content">
-                    </div>
+                <div class="question-content" id="question-content"></div>
                 <div class="action-buttons">
                     <div>
                         <button class="btn-cbt btn-save" onclick="saveAndNext()">Save & Next</button>
@@ -168,8 +167,7 @@
                 </div>
 
                 <div class="palette-grid-container">
-                    <div class="palette-grid" id="palette-grid">
-                        </div>
+                    <div class="palette-grid" id="palette-grid"></div>
                 </div>
             </div>
         </div>
@@ -177,7 +175,6 @@
 </div>
 
 <script>
-    // --- State Variables ---
     let currentUser = null;
     let currentTest = null;
     let userAnswers = {}; 
@@ -185,13 +182,13 @@
     let currentIndex = 0;
     let timerInterval;
 
-    // --- Mock Data (Testing with a few physics questions to mimic your syllabus focus) ---
+    // --- TEST REGISTRY FOR SEPARATE HTML PAPERS ---
+    // Just add the filename of your new test here when you save it in your folder
     const availableTests = [
-        { id: "test1", name: "NEET Full Syllabus Mock 1", file: "test1.json" },
-        { id: "test2", name: "Dimensional Analysis & Mechanics Mock", file: "test2.json" }
+        { id: "test1", name: "NEET Full Syllabus Mock 1", file: "test1.html" },
+        { id: "test2", name: "Dimensional Analysis & Physics Core", file: "test2.html" }
     ];
 
-    // --- Auth & Navigation ---
     function toggleAuth() {
         document.getElementById('login-form').classList.toggle('hidden');
         document.getElementById('signup-form').classList.toggle('hidden');
@@ -264,18 +261,48 @@
 
     function goHome() { loadDashboard(); showSection('home-section'); }
 
-    // --- CBT Test Logic ---
-    function startTest(testId) {
-        // Mock Test Load
-        currentTest = {
-            id: testId, title: availableTests.find(t => t.id === testId).name,
-            questions: [
-                { id: 1, text: "What is the dimensional formula for Pressure?", image: "", options: ["M1 L-1 T-2", "M1 L2 T-2", "M1 L1 T-2", "M-1 L2 T-2"], correct: 0 },
-                { id: 2, text: "Which of the following is an abiotic component?", image: "", options: ["Bacteria", "Fungi", "Water", "Plants"], correct: 2 },
-                { id: 3, text: "What is the dimensional formula for momentum?", image: "", options: ["M1 L1 T-1", "M1 L2 T-1", "M1 L1 T-2", "M0 L1 T-1"], correct: 0 },
-                { id: 4, text: "Identify the structure marked 'X' in the typical animal cell:", image: "https://via.placeholder.com/200x150.png?text=Cell+Diagram", options: ["Nucleus", "Mitochondria", "Golgi Apparatus", "Endoplasmic Reticulum"], correct: 1 }
-            ]
-        };
+    // --- PARSING SCHEME: LOADS & COMPILES TARGET HTML TEST PACKS ---
+    async function startTest(testId) {
+        const testConfig = availableTests.find(t => t.id === testId);
+        
+        try {
+            const response = await fetch(testConfig.file);
+            if (!response.ok) throw new Error(`Could not access file "${testConfig.file}".`);
+            const htmlText = await response.text();
+            
+            // Build temporary DOM parser to scrape HTML elements out of the file safely
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(htmlText, 'text/html');
+            const testDataContainer = doc.getElementById('neet-test-package');
+            
+            if (!testDataContainer) throw new Error("This HTML file is missing the standard #neet-test-package wrapper structure.");
+            
+            const questionNodes = doc.querySelectorAll('.question-block');
+            const extractedQuestions = [];
+            
+            questionNodes.forEach((node, index) => {
+                const text = node.querySelector('.question-prompt').innerHTML;
+                const imgNode = node.querySelector('.question-graphic');
+                const image = imgNode ? imgNode.getAttribute('src') : "";
+                const correct = parseInt(node.getAttribute('data-correct-index'), 10);
+                
+                const optionNodes = node.querySelectorAll('.option-choice');
+                const options = [];
+                optionNodes.forEach(opt => options.push(opt.innerHTML));
+                
+                extractedQuestions.push({ id: index + 1, text, image, options, correct });
+            });
+
+            currentTest = {
+                id: testId,
+                title: testConfig.name,
+                questions: extractedQuestions
+            };
+
+        } catch (error) {
+            alert("🚨 File Verification Error:\n" + error.message + "\n\nMake sure your test file is saved correctly in your folder and you're hosting locally via Live Server.");
+            return;
+        }
 
         userAnswers = {};
         questionStatus = new Array(currentTest.questions.length).fill(0);
@@ -284,7 +311,7 @@
         document.getElementById('cbt-test-title').innerText = currentTest.title;
         showSection('cbt-section');
         
-        startTimer(10800); // 3 Hours
+        startTimer(10800); 
         renderQuestion(currentIndex);
         updatePalette();
     }
@@ -295,7 +322,7 @@
         const q = currentTest.questions[index];
         document.getElementById('q-no-display').innerText = index + 1;
         
-        let imgHTML = q.image ? `<img src="${q.image}" class="question-image" alt="Question Image">` : '';
+        let imgHTML = q.image ? `<img src="${q.image}" class="question-image" alt="Question Diagram">` : '';
         let optionsHTML = q.options.map((opt, i) => {
             let isChecked = userAnswers[index] === i ? "checked" : "";
             return `<li onclick="document.getElementById('opt${i}').click()">
@@ -315,7 +342,6 @@
 
     function selectOption(optIndex) { userAnswers[currentIndex] = optIndex; }
 
-    // --- Action Buttons ---
     function saveAndNext() {
         if (userAnswers[currentIndex] !== undefined) questionStatus[currentIndex] = 2; 
         else questionStatus[currentIndex] = 1; 
@@ -340,7 +366,7 @@
             renderQuestion(currentIndex);
         } else {
             updatePalette();
-            alert("You have reached the last question. Please review the palette and submit the test when ready.");
+            alert("End of test paper reached.");
         }
     }
 
@@ -349,11 +375,9 @@
         renderQuestion(currentIndex);
     }
 
-    // --- Palette Logic ---
     function updatePalette() {
         const grid = document.getElementById('palette-grid');
         grid.innerHTML = '';
-        
         let counts = [0, 0, 0, 0, 0]; 
 
         for (let i = 0; i < currentTest.questions.length; i++) {
@@ -376,7 +400,6 @@
         document.getElementById('count-amfr').innerText = counts[4];
     }
 
-    // --- Timer & Submit & Results ---
     function startTimer(seconds) {
         clearInterval(timerInterval);
         timerInterval = setInterval(() => {
@@ -391,7 +414,7 @@
     }
 
     function submitTestConf() {
-        if(confirm("Are you sure you want to submit the test? No further changes will be allowed.")) {
+        if(confirm("Confirm submission? This evaluates your performance scorecard.")) {
             submitTest();
         }
     }
@@ -407,26 +430,20 @@
             else { score -= 1; wrong++; }
         });
 
-        // 1. Scale score to 720 for accurate predictions, regardless of test length
         const maxTestMarks = currentTest.questions.length * 4;
         const scaleFactor = 720 / maxTestMarks;
         const scaledScore = Math.round(score * scaleFactor);
-
-        // 2. Calculations based on requested features
         const percentage = ((score / maxTestMarks) * 100).toFixed(2);
         
-        // Percentile prediction formula (Mock logic based on current NEET trends)
         let percentile = 0;
         if (scaledScore > 0) {
             percentile = Math.min(99.99, (50 + (scaledScore / 720) * 50)).toFixed(2);
             if(scaledScore >= 600) percentile = (98 + (scaledScore - 600) * 0.016).toFixed(2);
         }
 
-        // AIR Prediction (Mock formula scaling for ~2.5 million candidates)
         let expectedAIR = Math.max(1, Math.floor(2500000 - (scaledScore * 3400)));
         if (scaledScore <= 0) expectedAIR = "> 2,000,000";
 
-        // GMC Prediction
         let expectedGMC = "Private Medical College / BDS";
         if (scaledScore >= 680) expectedGMC = "AIIMS / Top Tier 1 State GMC";
         else if (scaledScore >= 640) expectedGMC = "Tier 2 State GMC";
@@ -445,27 +462,39 @@
         renderScoreCard(resultData);
     }
 
-    function viewResultsFromHome(testId) {
+    async function viewResultsFromHome(testId) {
         const history = currentUser.history[testId];
         if(history && history.length > 0) {
-            // Find the mock test data to load solutions
-            // In a real app, you fetch the JSON again here. For now, we reuse currentTest if it matches.
-            if(!currentTest || currentTest.id !== testId) {
-                // Mock loading the test structure
-                currentTest = {
-                    id: testId, title: availableTests.find(t => t.id === testId).name,
-                    questions: [
-                        { id: 1, text: "Sample Question loaded for history view.", image: "", options: ["Opt A", "Opt B", "Opt C", "Opt D"], correct: 0 }
-                    ]
-                };
+            const testConfig = availableTests.find(t => t.id === testId);
+            try {
+                const response = await fetch(testConfig.file);
+                const htmlText = await response.text();
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(htmlText, 'text/html');
+                const questionNodes = doc.querySelectorAll('.question-block');
+                const extractedQuestions = [];
+                
+                questionNodes.forEach((node, index) => {
+                    const text = node.querySelector('.question-prompt').innerHTML;
+                    const imgNode = node.querySelector('.question-graphic');
+                    const image = imgNode ? imgNode.getAttribute('src') : "";
+                    const correct = parseInt(node.getAttribute('data-correct-index'), 10);
+                    const optionNodes = node.querySelectorAll('.option-choice');
+                    const options = [];
+                    optionNodes.forEach(opt => options.push(opt.innerHTML));
+                    extractedQuestions.push({ id: index + 1, text, image, options, correct });
+                });
+
+                currentTest = { id: testId, title: testConfig.name, questions: extractedQuestions };
+                renderScoreCard(history[history.length - 1]);
+            } catch(e) {
+                alert("Error compiling configuration paper analytics.");
             }
-            renderScoreCard(history[history.length - 1]);
         }
     }
 
     function renderScoreCard(data) {
         let motivationHTML = "";
-        // Scaled check for motivation (equivalent to < 450 out of 720)
         if ((data.score / data.maxTestMarks) * 720 < 450) {
             motivationHTML = `
             <div class="motivation-box">
@@ -490,7 +519,6 @@
             </table>
             ${motivationHTML}
         `;
-        
         showSection('result-section');
         document.getElementById('solutions-container').classList.add('hidden');
     }
@@ -501,23 +529,12 @@
         container.innerHTML = '<h3 style="color: #1a5276;">Detailed Solutions & Paper Analysis</h3>';
 
         currentTest.questions.forEach((q, index) => {
-            const userMarked = userAnswers[index]; // Note: If viewing history from home, userAnswers will be empty in this mock. Needs full backend for persistent answers.
+            const userMarked = userAnswers[index]; 
             let optionsHTML = q.options.map((opt, i) => {
-                let bg = "#fff";
-                let border = "1px solid #ddd";
-                let icon = "";
-                
-                if (i === q.correct) { 
-                    bg = "#e8f8f5"; border = "1px solid #2ecc71"; icon = " ✅ (Correct Answer)"; 
-                } else if (i === userMarked && userMarked !== q.correct) { 
-                    bg = "#fdedec"; border = "1px solid #e74c3c"; icon = " ❌ (Your Wrong Answer)"; 
-                } else if (i === userMarked && i === q.correct) {
-                    icon = " ✅ (Your Correct Answer)";
-                }
-                
-                return `<div style="background: ${bg}; border: ${border}; padding: 8px 12px; margin-top: 5px; border-radius: 4px;">
-                    ${opt} <strong>${icon}</strong>
-                </div>`;
+                let bg = "#fff"; let border = "1px solid #ddd"; let icon = "";
+                if (i === q.correct) { bg = "#e8f8f5"; border = "1px solid #2ecc71"; icon = " ✅ (Correct)"; }
+                else if (i === userMarked && userMarked !== q.correct) { bg = "#fdedec"; border = "1px solid #e74c3c"; icon = " ❌ (Your Choice)"; }
+                return `<div style="background: ${bg}; border: ${border}; padding: 8px 12px; margin-top: 5px; border-radius: 4px;">${opt} <strong>${icon}</strong></div>`;
             }).join('');
 
             let statusText = userMarked === undefined ? "<span style='color:#7f8c8d; font-weight:bold;'>[ Unattempted ]</span>" : 
@@ -525,12 +542,9 @@
 
             container.innerHTML += `
                 <div style="border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; border-radius: 5px; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-                    <div style="margin-bottom: 15px; font-size: 16px;">
-                        <strong>Q${index + 1}: ${q.text}</strong> ${statusText}
-                    </div>
+                    <div style="margin-bottom: 15px; font-size: 16px;"><strong>Q${index + 1}: ${q.text}</strong> ${statusText}</div>
                     ${optionsHTML}
-                </div>
-            `;
+                </div>`;
         });
     }
 </script>
